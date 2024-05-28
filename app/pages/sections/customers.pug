@@ -1,0 +1,173 @@
+section.main
+    .container
+        .main__greeting Hello Evano 👋🏼,
+        .main__list
+            .list-customers__header
+                .list-customers__text
+                    .list-customers__title All Customers
+                    .list-customers__description Active Members
+                .list-customers__search
+                    .icon-search-1
+                    input(type="text" placeholder="Search").list-customers__input
+            //- .list-customers__table.table-customers
+                .table-customers__row.customers-row.table-customers__head
+                    .customers-row__cell.customers-row__title Customer Name
+                    .customers-row__cell.customers-row__title Company
+                    .customers-row__cell.customers-row__title Phone Number
+                    .customers-row__cell.customers-row__title Email
+                    .customers-row__cell.customers-row__title Country
+                    .customers-row__cell.customers-row__title.status--title Status
+                .table-customers__row.customers-row
+                    .customers-row__cell Floyd Miles
+                    .customers-row__cell Yahoo
+                    .customers-row__cell (205) 555-0100
+                    .customers-row__cell floyd@yahoo.com
+                    .customers-row__cell Kiribati
+                    .customers-row__cell.status.status--inactive Inactive
+                .table-customers__row.customers-row
+                    .customers-row__cell Ronald Richards
+                    .customers-row__cell Adobe
+                    .customers-row__cell (302) 555-0107
+                    .customers-row__cell ronald@adobe.com
+                    .customers-row__cell Israel
+                    .customers-row__cell.status.status--inactive Inactive
+                .table-customers__row.customers-row
+                    .customers-row__cell Marvin McKinney
+                    .customers-row__cell Tesla
+                    .customers-row__cell (252) 555-0126
+                    .customers-row__cell marvin@tesla.com
+                    .customers-row__cell Iran
+                    .customers-row__cell.status.status--active Active
+                .table-customers__row.customers-row
+                    .customers-row__cell Jerome Bell
+                    .customers-row__cell Google
+                    .customers-row__cell (629) 555-0129
+                    .customers-row__cell jerome@google.com
+                    .customers-row__cell Réunion
+                    .customers-row__cell.status.status--active Active
+                .table-customers__row.customers-row
+                    .customers-row__cell Karyn Murphy
+                    .customers-row__cell Microsoft
+                    .customers-row__cell (406) 555-0120
+                    .customers-row__cell karyn@microsoft.com
+                    .customers-row__cell Curaçao
+                    .customers-row__cell.status.status--active Active
+                .table-customers__row.customers-row
+                    .customers-row__cell Jacob Jones
+                    .customers-row__cell Yahoo
+                    .customers-row__cell Yahoo
+                    .customers-row__cell Brazil
+                    .customers-row__cell United States
+                    .customers-row__cell.status.status--active Active
+                .table-customers__row.customers-row
+                    .customers-row__cell Kristin Watson
+                    .customers-row__cell Facebook
+                    .customers-row__cell (704) 555-0127
+                    .customers-row__cell kristin@facebook.com
+                    .customers-row__cell Åland Islands
+                    .customers-row__cell.status.status--active Active
+                .table-customers__row.customers-row
+                    .customers-row__cell Jane Cooper
+                    .customers-row__cell Microsoft
+                    .customers-row__cell (225) 555-0118
+                    .customers-row__cell jane@microsoft.com
+                    .customers-row__cell United States
+                    .customers-row__cell.status.status--inactive Inactive
+                .list-customers__footer
+                    .list-customers__entries Showing data 1 to 8 of  256K entries
+                    .pagination
+                        .pagination__item.pagination__item--back <
+                        .pagination__item 1
+                        .pagination__item 2
+                        .pagination__item 3
+                        .pagination__item 4
+                        .pagination__item.pagination__item--empty ...
+                        .pagination__item 40
+                        .pagination__item.pagination__item--next >
+            table.list-customers__table.table-customers
+                tr.table-customers__row.customers-row.table-customers__head
+                    td.customers-row__cell.customers-row__title Customer Name
+                    td.customers-row__cell.customers-row__title Company
+                    td.customers-row__cell.customers-row__title Phone Number
+                    td.customers-row__cell.customers-row__title Email
+                    td.customers-row__cell.customers-row__title Country
+                    td.customers-row__cell.customers-row__title.customers-row__cell--status Status
+                tr.table-customers__row.customers-row
+                    td.customers-row__cell Floyd Miles
+                    td.customers-row__cell Yahoo
+                    td.customers-row__cell (205) 555-0100
+                    td.customers-row__cell floyd@yahoo.com
+                    td.customers-row__cell Kiribati
+                    td.customers-row__cell.customers-row__cell--status
+                        .status.status--inactive Inactive
+                tr.table-customers__row.customers-row
+                    td.customers-row__cell Ronald Richards
+                    td.customers-row__cell Adobe
+                    td.customers-row__cell (302) 555-0107
+                    td.customers-row__cell ronald@adobe.com
+                    td.customers-row__cell Israel
+                    td.customers-row__cell.customers-row__cell--status
+                        .status.status--inactive Inactive
+                tr.table-customers__row.customers-row
+                    td.customers-row__cell Marvin McKinney
+                    td.customers-row__cell Tesla
+                    td.customers-row__cell (252) 555-0126
+                    td.customers-row__cell marvin@tesla.com
+                    td.customers-row__cell Iran
+                    td.customers-row__cell.customers-row__cell--status
+                        .status.status--active Active
+                tr.table-customers__row.customers-row
+                    td.customers-row__cell Jerome Bell
+                    td.customers-row__cell Google
+                    td.customers-row__cell (629) 555-0129
+                    td.customers-row__cell jerome@google.com
+                    td.customers-row__cell Réunion
+                    td.customers-row__cell.customers-row__cell--status.customers-row__cell--status
+                        .status.status--active Active
+                tr.table-customers__row.customers-row
+                    td.customers-row__cell Karyn Murphy
+                    td.customers-row__cell Microsoft
+                    td.customers-row__cell (406) 555-0120
+                    td.customers-row__cell karyn@microsoft.com
+                    td.customers-row__cell Curaçao
+                    td.customers-row__cell.customers-row__cell--status
+                        .status.status--active Active
+                tr.table-customers__row.customers-row
+                    td.customers-row__cell Jacob Jones
+                    td.customers-row__cell Yahoo
+                    td.customers-row__cell Yahoo
+                    td.customers-row__cell Brazil
+                    td.customers-row__cell United States
+                    td.customers-row__cell.customers-row__cell--status
+                        .status.status--active Active
+                tr.table-customers__row.customers-row
+                    td.customers-row__cell Kristin Watson
+                    td.customers-row__cell Facebook
+                    td.customers-row__cell (704) 555-0127
+                    td.customers-row__cell kristin@facebook.com
+                    td.customers-row__cell Åland Islands
+                    td.customers-row__cell.customers-row__cell--status
+                        .status.status--active Active
+                tr.table-customers__row.customers-row
+                    td.customers-row__cell Jane Cooper
+                    td.customers-row__cell Microsoft
+                    td.customers-row__cell (225) 555-0118
+                    td.customers-row__cell jane@microsoft.com
+                    td.customers-row__cell United States
+                    td.customers-row__cell.customers-row__cell--status
+                        .status.status--inactive Inactive
+            .list-customers__footer
+                .list-customers__entries Showing data 1 to 8 of  256K entries
+                .pagination
+                    .pagination__item.pagination__item--back <
+                    .pagination__item 1
+                    .pagination__item 2
+                    .pagination__item 3
+                    .pagination__item 4
+                    .pagination__item--empty ...
+                    .pagination__item 40
+                    .pagination__item.pagination__item--next >
+
+            
+
+

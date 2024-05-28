@@ -1,0 +1,14 @@
+body {
+    font-family: $ff-main;
+}
+
+html {
+    @media (max-width: $md2) {
+        font-size: 14px;
+    }
+    
+}
+
+.container{
+    max-width: 958px;
+}

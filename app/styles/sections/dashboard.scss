@@ -1,0 +1,13 @@
+.dashboard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #FAFBFF;
+    height: 100vh;
+    overflow: hidden;
+
+    @media (max-width: $md2) {
+        flex-direction: column;
+    }
+    
+}
