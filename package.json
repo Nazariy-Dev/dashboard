@@ -6,13 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "sass": "^1.77.2",
     "vite": "^5.2.0"
   },
   "dependencies": {
     "vite-plugin-pug": "^0.3.2"
-  }
+  },
+  "homepage": "https://nazariy-dev.github.io/dashboard/"
 }
